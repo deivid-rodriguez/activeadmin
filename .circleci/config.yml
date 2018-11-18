@@ -105,7 +105,7 @@ jobs:
       - image: circleci/ruby:2.5.3-node
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
 
     steps:
       *test_app_steps
@@ -115,7 +115,7 @@ jobs:
       - image: circleci/ruby:2.5.3-node
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
 
     steps:
       *test_app_steps
@@ -152,7 +152,7 @@ jobs:
       - image: circleci/ruby:2.3.8-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
 
     steps:
       *test_steps
@@ -162,7 +162,7 @@ jobs:
       - image: circleci/ruby:2.3.8-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
 
     steps:
       *test_steps
@@ -182,7 +182,7 @@ jobs:
       - image: circleci/ruby:2.4.5-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
 
     steps:
       *test_steps
@@ -192,7 +192,7 @@ jobs:
       - image: circleci/ruby:2.4.5-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
 
     steps:
       *test_steps
@@ -212,7 +212,7 @@ jobs:
       - image: circleci/ruby:2.5.3-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
 
     steps:
       *test_steps
@@ -222,7 +222,7 @@ jobs:
       - image: circleci/ruby:2.5.3-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
 
     steps:
       *test_steps
@@ -242,7 +242,7 @@ jobs:
       - image: circleci/jruby:9.1.17.0-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
       JRUBY_OPTS: -J-Xmx1024m --dev --debug
 
     steps:
@@ -253,7 +253,7 @@ jobs:
       - image: circleci/jruby:9.1.17.0-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
       JRUBY_OPTS: -J-Xmx1024m --dev --debug
 
     steps:
@@ -275,7 +275,7 @@ jobs:
       - image: circleci/jruby:9.2.3.0-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_50.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_50/Gemfile
       JRUBY_OPTS: -J-Xmx1024m --dev --debug
 
     steps:
@@ -286,7 +286,7 @@ jobs:
       - image: circleci/jruby:9.2.3.0-node-browsers
 
     environment:
-      BUNDLE_GEMFILE: gemfiles/rails_51.gemfile
+      BUNDLE_GEMFILE: gemfiles/rails_51/Gemfile
       JRUBY_OPTS: -J-Xmx1024m --dev --debug
 
     steps:
