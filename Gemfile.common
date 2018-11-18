@@ -13,7 +13,7 @@ gem 'pry-byebug', platforms: :mri
 
 group :lint do
   # Code style
-  gem 'rubocop', '0.59.2'
+  gem 'rubocop', '0.60.0'
   gem 'mdl', '0.4.0'
 
   # Translations
